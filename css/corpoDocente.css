@@ -1,0 +1,68 @@
+th, td{
+    border: 3px  solid  black;
+    font-size: 30px;
+    font-family: inherit;
+    text-align: center;      
+        
+}
+
+table{
+     width: 95%;
+    margin: auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;   
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    height: 60px;  
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cor1{
+    background-color: darkgray;
+}
+
+.cor2{
+    font-size: 40px;
+    font-family: inherit;
+    background-color: blue;
+    color: white;
+}
+
+.cor4{
+    background-color: lightgray
+}
+
+.fontTh{
+    font-size: 35px;
+    font-family: inherit;
+    color: black;
+}
+
+.voltar{
+    font-size: 40px;
+    font-family: inherit; 
+    text-align: center;   
+}
+
+
+
+
+
+
+
