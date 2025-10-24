@@ -27,23 +27,24 @@ function exibirMensagem(color: string, msg: string){
 formFormulario.addEventListener("submit", (event) =>{
     event.preventDefault();
 
-    const nome = txtNome.value;
-    const email = txtEmail.value;    
-    const mensagem = txtMensagem.value; 
+    const nome = txtNome.value.trim();
+    const email = txtEmail.value .trim();    
+    const mensagem = txtMensagem.value.trim(); 
 
   
-if(!id){
-    const adm = new Administrador(nome, email, mensagem);
-    adm.cadastrar();
-    exibirMensagem("green", "Mensagem Enviada com Sucesso!");
-}
-/*else{
-    let contAlterado = new Contato(nome, email, mensagem);
-    contAlterado.id = id;
-    Contato.alterar(contAlterado);
-    exibirMenssagem("Green", "Alteralção Realizada com Sucesso!");
-    
-}*/ 
+    if(!id){
+        const adm = new Administrador(nome, email, mensagem);
+        adm.cadastrar();
+        exibirMensagem("green", "Mensagem Enviada com Sucesso!");
+        formFormulario.reset();
+    }
+    /*else{
+        let contAlterado = new Contato(nome, email, mensagem);
+        contAlterado.id = id;
+        Contato.alterar(contAlterado);
+        exibirMenssagem("Green", "Alteralção Realizada com Sucesso!");
+        
+    }*/ 
    
 
 });
