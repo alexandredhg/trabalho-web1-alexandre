@@ -10,12 +10,10 @@ body{
     margin-right: 40px;
 }
 
-.listaMenu{
-    margin-left: 100px;
+.listaMenu{    
     font-size: 30px;
     font-family: inherit;
-    display: flex; 
-    justify-content: space-between;  
+     
 }
 
 .menu{
