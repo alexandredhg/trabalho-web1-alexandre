@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina de Formulário de Mensagens</title>
+        <link rel="stylesheet"  href="css/formulario.css">
+
+    </head>
+    <body>
+        <h1>Formulátio de Contato</h1>
+        <br>
+        <h2>Formulário:</h2>        
+        <form id="formFormulario">    
+            <br>
+            <div>                
+                <label for="txtNome">* Nome:</label>
+                <input class="input" type="text" id="txtNome" required/>
+            </div>
+            <br>
+            <div>
+                
+                <label for="txtEmail">* E-mail:</label>
+                <input  class="input" type="text" id="txtEmail" required/>
+            </div>
+            <br>                                  
+            <div>                
+                <label for="txtMensagem">* Mensagem</label>
+                <textarea name="txtMensagem" id="txtMensagem" placeholder="Esscreva sua mensagem" 
+                rows="3" cols="30"  class="input" required></textarea>
+
+                <button type="button" id="btnLimpa"  class="button">Limpar</button>
+            </div>           
+            <br><br>
+            <button type="submit" id="btnSubmit"  class="button" >Enviar</button>
+        </form>
+        <br>    
+        <div class="msg" id="divMensagem" role="alert" aria-live="assertive"></div>
+        <!--<hr>-->        
+        <div class="voltar">
+            <br>   
+            <a href="contato.html">Voltar</a> 
+        </div>        
+    </body>
+    <script type="module" src="dist/formulario.js"></script>
+</html>

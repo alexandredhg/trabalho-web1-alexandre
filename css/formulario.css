@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    height: 60px;  
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+h2{
+    font-size: 40px;
+}
+
+/**{
+    font-size: 32px;
+    font-family: inherit;
+}*/
+
+.button{
+    font-size: 30px;
+    font-family: inherit;
+    background-color: red;color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.voltar{
+    font-size: 40px;
+    font-family: inherit;
+}
+
+.input{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: inherit;
+    color: black;
+    text-align: center;
+}
+
+.input2{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: inherit;
+    color: black;
+}
+
+label{
+    font-size: 35px;
+    font-family: inherit;
+    color: black;
+}
+
+.msg{
+    font-size: 35px;
+    font-family: inherit;
+}
+
+.msg{
+    font-size: 35px;
+    font-family: inherit;
+}
