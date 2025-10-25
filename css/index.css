@@ -10,11 +10,11 @@ body{
     margin-right: 40px;
 }
 
-.listaMenu{    
+/*.listaMenu{    
     font-size: 30px;
     font-family: inherit;
      
-}
+}*/
 
 /*.menu{
     font-size: 40px;
@@ -32,27 +32,21 @@ body{
 }*/
 
 h1{
-    font-size: 50px;    
+    font-size: 40px;    
    
     color: black;
     font-family: inherit;
-    height: 60px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 h2{
     
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    height: 50px;  
+     
     font-family: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    
 }
 
 h3{
