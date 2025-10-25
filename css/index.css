@@ -6,15 +6,27 @@
 }*/
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
-/*.listaMenu{    
-    font-size: 30px;
+.menuLi{   
+    
+    color: red;    
+    text-decoration: none;     
+}
+
+.menuUl{
+    font-size: 1vw;
     font-family: inherit;
-     
-}*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 3vw;
+
+}
 
 /*.menu{
     font-size: 40px;
