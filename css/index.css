@@ -6,8 +6,8 @@
 }*/
 
 body{
-    margin-left: 1,56vw;
-    margin-right: 1,04vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     
 }
 
@@ -21,7 +21,7 @@ body{
 }
 
 .menuUl{
-    font-size: 2vw;
+    font-size: 1vw;
     font-family: inherit;
     list-style-type: none;
     display: flex;
@@ -85,7 +85,10 @@ h3{
 
 .baner{     
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+     
     
     
     
@@ -98,8 +101,6 @@ h3{
 
 .circulo{
     border-radius: 50%;
-    border: none;
-    display: inline-block;
-    
-    
+    border: none; 
+        
 }
