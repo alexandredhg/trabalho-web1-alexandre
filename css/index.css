@@ -1,4 +1,4 @@
-/**{
+*{
     padding: 0;
     margin: 0; 
     box-sizing: 0;  
@@ -15,18 +15,18 @@ body{
     
     color: blueviolet ;    
     text-decoration: none;
-    margin: 4vw;
+    
     
             
 }
 
 .menuUl{
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: inherit;
+    font-weight: bold;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    
     
     
     
@@ -86,8 +86,8 @@ h3{
 .baner{     
     display: flex;
     justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
      
     
     
