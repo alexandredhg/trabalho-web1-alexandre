@@ -1,20 +1,20 @@
-/**{
+*{
     padding: 0;
     margin: 0;
     box-sizing: 0;    
-}*/
+}
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2vw;
+    margin-right: 2vw;
     
 }
 
 h1{
-    background-color: blueviolet;
+    background-color: blue;
     color: white;
-    font-size: 50px;
-    height: 60px;  
+    font-size: 3vw;
+    height: 4vw;  
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -22,57 +22,70 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 3vw;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
 }
 
-/**{
-    font-size: 32px;
-    font-family: inherit;
-}*/
 
-.button{
-    font-size: 30px;
+.btnEnviar{
+    font-size: 2vw;
     font-family: inherit;
-    background-color: red;color: white;
-    height: 40px;
-    width: 120px;
+    background-color: blue;
+    color: white;
+    height: 3vw;
+    width: 7vw;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+.btnLimpar{
+    font-size: 2vw;
+    font-family: inherit;
+    background-color: gray;
+    color: white;
+    height: 3vw;
+    width: 7vw;
+    border: none;
+    cursor: pointer;    
 }
 
 .voltar{
-    font-size: 40px;
+    font-size: 3vw;
     font-family: inherit;
+    text-align: center;
 }
 
 .input{
     background-color: aqua;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: inherit;
     color: black;
     text-align: center;
 }
 
 .input2{
-    background-color: aqua;
-    font-size: 30px;
+    background-color: gray;
+    font-size: 2vw;
     font-family: inherit;
     color: black;
 }
 
 label{
-    font-size: 35px;
+    font-size: 2vw;
     font-family: inherit;
     color: black;
+    font-weight: bold;
 }
 
 .msg{
-    font-size: 35px;
+    font-size: 2vw;
     font-family: inherit;
+    text-align: center;
 }
 
-.msg{
-    font-size: 35px;
-    font-family: inherit;
+.centralForm{
+    text-align: center;
 }
+

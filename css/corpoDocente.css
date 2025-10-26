@@ -49,13 +49,14 @@ h1{
 }
 
 .fontTh{
-    font-size: 35px;
+    font-size: 2vw;
     font-family: inherit;
     color: black;
+    font-weight: bold;
 }
 
 .voltar{
-    font-size: 40px;
+    font-size: 3vw;
     font-family: inherit; 
     text-align: center;   
 }

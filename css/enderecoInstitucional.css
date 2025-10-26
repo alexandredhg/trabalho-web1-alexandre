@@ -1,19 +1,19 @@
-/**{
+*{
     padding: 0;
     margin: 0;
     box-sizing: 0;
-}*/
+}
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;   
+    margin-left: 2vw;
+    margin-right: 2vw;   
 }
 
 h1{
     background-color: blueviolet;
     color: white;
-    font-size: 50px;
-    height: 60px;  
+    font-size: 3vw;
+    height: 4vw;  
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -23,9 +23,9 @@ h1{
 h2{
     background-color: red;
     color: white;
-    font-size: 40px;
-    width: 450px;
-    height: 50px;
+    font-size: 2vw;
+    width: 22vw;
+    height: 3vw;
     font-family: inherit;    
     border: none;
     display: flex;
@@ -34,13 +34,14 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: inherit;
     color: black;
+    font-weight: bold;
 }
 
 .voltar{
-    font-size: 40px;
+    font-size: 3vw;
     font-family: inherit;    
 }
 

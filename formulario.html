@@ -9,30 +9,35 @@
     </head>
     <body>
         <h1>Formulátio de Contato</h1>
-        <br>
+        <br><br>
         <h2>Formulário:</h2>        
-        <form id="formFormulario">    
+        <form id="formFormulario" class="centralForm">    
             <br>
             <div>                
                 <label for="txtNome">* Nome:</label>
+                <br>
                 <input class="input" type="text" id="txtNome" required/>
             </div>
             <br>
-            <div>
-                
+            <div>                
                 <label for="txtEmail">* E-mail:</label>
+                <br>
                 <input  class="input" type="text" id="txtEmail" required/>
             </div>
             <br>                                  
             <div>                
                 <label for="txtMensagem">* Mensagem</label>
+                <br>
                 <textarea name="txtMensagem" id="txtMensagem" placeholder="Esscreva sua mensagem" 
                 rows="3" cols="30"  class="input" required></textarea>
+                
+            </div> 
+            <br>
+            <button type="submit" id="btnSubmit"  class="btnEnviar">Enviar</button>
 
-                <button type="button" id="btnLimpa"  class="button">Limpar</button>
-            </div>           
-            <br><br>
-            <button type="submit" id="btnSubmit"  class="button" >Enviar</button>
+            <button type="button" id="btnLimpa"  class="btnLimpar">Limpar</button>
+            
+            <br>            
         </form>
         <br>    
         <div class="msg" id="divMensagem" role="alert" aria-live="assertive"></div>
