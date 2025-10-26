@@ -22,10 +22,16 @@ h1{
 }
 
 h2{
-    font-size: 3vw;
+    background-color: gray;
+    color: white;
+    font-size: 2vw;
+    height: 3vw;
     font-family: inherit;
-    font-weight: bold;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    
 }
 
 
@@ -76,8 +82,7 @@ label{
     font-size: 2vw;
     font-family: inherit;
     color: black;
-    font-weight: bold;
-}
+    }
 
 .msg{
     font-size: 2vw;
