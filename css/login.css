@@ -60,6 +60,7 @@ h2{
 .voltar{
     font-size: 3vw;
     font-family: inherit;
+    text-align: center;
 }
 
 input{
