@@ -5,15 +5,17 @@
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;   
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;  
 }
 
 h1{
     background-color: blue;
     color: white;
-    font-size: 3vw;
-    height: 4vw;  
+    font-size: 2vw;
+    height: 3vw;  
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -25,7 +27,7 @@ h2{
     background-color: gray;
     color: white;
     font-size: 2vw;    
-    height: 4vw;  
+    height: 3vw;  
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -36,8 +38,9 @@ h2{
 
 
 .voltar{
-    font-size: 3vw;
-    font-family: inherit; 
+    font-size: 2vw;
+    font-family: inherit;
+    font-weight: bold; 
     text-align: center;   
 }
 

@@ -51,8 +51,8 @@ body{
 
 h1{
     background-color: blue;
-    height: 4vw;
-    font-size: 3vw;
+    height: 3vw;
+    font-size: 2;
     color: white;
     font-family: inherit;
     display: flex;

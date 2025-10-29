@@ -18,15 +18,17 @@ table{
 }
 
 body{
-    margin-left: 2vw;
-    margin-right: 2vw;   
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;  
 }
 
 h1{
     background-color: blueviolet;
     color: white;
-    font-size: 3vw;
-    height: 4vw;  
+    font-size: 2vw;
+    height: 3vw;  
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -56,9 +58,10 @@ h1{
 }
 
 .voltar{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: inherit; 
-    text-align: center;   
+    text-align: center;
+    font-weight: bold;   
 }
 
 
