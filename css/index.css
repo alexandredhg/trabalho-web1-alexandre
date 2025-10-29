@@ -6,8 +6,10 @@
 }*/
 
 body{
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
     
 }
 
@@ -22,8 +24,7 @@ body{
 
 .menuUl{
     font-size: 2vw;
-    font-family: inherit;
-    font-weight: bold;
+    font-family: inherit;    
     list-style-type: none;
     text-align: center;
     
@@ -86,8 +87,8 @@ h3{
 .baner{     
     display: flex;
     justify-content: space-between;
-    margin-left: 3vw;
-    margin-right: 3vw;  
+    margin-left: 7vw;
+    margin-right: 7vw;  
        
        
 }
