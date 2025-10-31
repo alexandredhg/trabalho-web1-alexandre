@@ -14,7 +14,7 @@ body{
 th, td{
     border: 3px  solid  black;
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;  
 }
 
@@ -27,7 +27,7 @@ h1{
     background-color: blueviolet;    
     color: white;
     font-size: 2vw;
-    font-family: inherit;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     height: 3vw;
     display: flex;
     align-items: center;
@@ -42,19 +42,19 @@ h1{
     background-color: blue;
     color: white;
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .voltar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;    
 }
 
 .fontTh{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 

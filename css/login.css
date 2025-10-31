@@ -16,7 +16,7 @@ h1{
     color: white;
     font-size: 2vw;
     height: 3vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -27,7 +27,7 @@ h2{
     color: white;
     font-size: 2vw;
     height: 3vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -37,23 +37,23 @@ h2{
 
 .btnEntrar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blue;
     color: white;
     height: 3vw;
-    width: 7vw;
+    width: 10vw;
     border: none;
     cursor: pointer;
     
 }
 
-.button{
+.btnMostrar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: gray;
     color: white;
     height: 3vw;
-    width: 7vw;
+    width: 10vw;
     border: none;
     cursor: pointer;
     
@@ -61,7 +61,7 @@ h2{
 
 .voltar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
 }
@@ -69,20 +69,20 @@ h2{
 input{
     background-color: aqua;
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
 }
 
 label{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
 .msg{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 

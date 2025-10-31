@@ -17,7 +17,7 @@ h1{
     color: white;
     font-size: 2vw;
     height: 3vw;  
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -25,21 +25,21 @@ h1{
 
 .textoDiv{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     
 }
 
 h2{    
     font-size: 2vw;   
-    font-family: inherit; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: black;
     font-weight: bold;        
 }
 
 .voltar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold; 
     text-align: center;   
 }

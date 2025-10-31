@@ -16,7 +16,7 @@ h1{
     color: white;
     font-size: 2vw;
     height: 3vw;  
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -27,7 +27,7 @@ h1{
     color: white;
     font-size: 2vw;    
     height: 3vw;
-    font-family: inherit;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
@@ -37,21 +37,21 @@ h1{
 
 .h2Cad{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     
 }
 
 .h3{    
     font-size: 2vw;    
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
          
 }
 
 .voltar{
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ h1{
 .listaMenu{
     margin-left: 2vw;
     font-size: 2vw;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
      list-style-type: none;
        
 }
