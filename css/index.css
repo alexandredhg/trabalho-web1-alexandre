@@ -15,8 +15,8 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 4vw; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw; 
+    font-family: Arial, Helvetica, sans-serif
     
     border: none;
     display: flex;
@@ -28,7 +28,7 @@ h2{
     background-color: gray; 
     color: white;
     font-size: 4vw;   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     
     border: none;
     display: flex;
@@ -40,7 +40,7 @@ h3{
     background-color: coral;
     color:  white;
     font-size: 4vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    font-family: Arial, Helvetica, sans-serif     
     
     border: none;
     display: flex;
@@ -67,8 +67,8 @@ h3{
     
     color:  blueviolet;    
     text-decoration: none; 
-    font-size: 3vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif         
                 
 }
 
