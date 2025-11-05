@@ -15,9 +15,9 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 2vw; 
+    font-size: 50px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
+    
     border: none;
     display: flex;
     align-items: center;
@@ -27,9 +27,9 @@ h1{
 h2{
     background-color: gray; 
     color: white;
-    font-size: 2vw;   
+    font-size: 40px;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
+    
     border: none;
     display: flex;
     align-items: center;
@@ -39,9 +39,9 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 2vw;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;     
-    height: 3vw;
+    
     border: none;
     display: flex;
     align-items: center;
@@ -57,8 +57,7 @@ h3{
 }
 
 .baner2{
-    border: 0px solid white;
-    
+    border: 0px solid white;    
     height: 20vw;
     width: 35vw;
 
@@ -68,7 +67,7 @@ h3{
     
     color:  blueviolet;    
     text-decoration: none; 
-    font-size: 2vw;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
                 
 }
