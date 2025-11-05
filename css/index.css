@@ -15,7 +15,7 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 50px; 
+    font-size: 4vw; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     border: none;
@@ -27,7 +27,7 @@ h1{
 h2{
     background-color: gray; 
     color: white;
-    font-size: 40px;   
+    font-size: 4vw;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     border: none;
@@ -39,7 +39,7 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 40px;
+    font-size: 4vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;     
     
     border: none;
@@ -67,7 +67,7 @@ h3{
     
     color:  blueviolet;    
     text-decoration: none; 
-    font-size: 30px;
+    font-size: 3vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
                 
 }
