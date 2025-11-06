@@ -42,7 +42,7 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif ;    
     
     border: none;
@@ -73,12 +73,10 @@ h3{
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif
     
-    @media screen and 600px {
-        font-size: 3.5rem;
-        
-    }
-                
+                   
 }
+
+
 
 .menuUl{  
     list-style-type: none;
