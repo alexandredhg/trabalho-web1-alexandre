@@ -76,6 +76,16 @@ h3{
                    
 }
 
+@media screen and (max-width: 600px){
+    body{
+    font-size: 6rem;    
+}
+.h3{
+    font-size: 7rem;
+}
+
+}
+
 
 
 .menuUl{  
