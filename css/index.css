@@ -52,18 +52,23 @@ h3{
     text-align: center;           
 }
 
-.baner{ 
-    display: flex;
+.baner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+    /*display: flex;
     justify-content: space-between;
-    align-items: center;      
+    align-items: center;*/      
        
     
 }
 
 .baner2{
     border: 0px solid white;    
-    height: 20vw;
-    width: 35vw;
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -110,9 +115,32 @@ h3{
         font-size: 3rem;
     }
     .menuUl{
-        font-size: 3rem;
+        font-size: 4rem;
         
     }
+    .baner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 1rem;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/      
+       
+    
+}
+
+.baner2{
+    border: 0px solid white;    
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 }
 
 
