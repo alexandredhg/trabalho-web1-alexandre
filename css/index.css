@@ -53,22 +53,32 @@ h3{
 }
 
 
-.baner{
+/*.baner{
     display: grid;
     grid-template-columns: repeat(4, 1fr);   
     margin-top: 3rem;     
      gap: 2rem;   
     display: flex;
     justify-content: space-between;
+    align-items: center;  
+           
+}*/
+
+.baner{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
     align-items: center;    
-       
     
 }
 
 .baner2{
-    border: 0px solid white;    
-    height: 16rem;
-    width: 100%;
+    border: 3px solid white;    
+    height: 17.5rem;
+    width: 30rem;
+    margin: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +107,7 @@ h3{
 }
 
 
-@media screen and (width: nax-800px) {
+@media (max-width: 800px) {
     h1{
         font-size: 3rem;
     }
@@ -112,51 +122,58 @@ h3{
 
     .menuLi{
         font-size: 10rem;
+
     }
     
 }
 
 
-@media screen and (width: nax-500px) {
+@media (max-width: 500px) {
+    body{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    }
+
     h1{
         font-size: 3rem;
+        text-align: center;
     }
 
     h2{
         font-size: 3rem;
+        text-align: ;
     }
 
     h3{
         font-size: 3rem;
+        text-align: center;
     }
 
     .menuLi{
-        font-size: 10rem;
+        font-size: 4rem;
+        text-align: center;
     }
 
-    .baner{
-    display: grid;
-    grid-template-columns: repeat 1fr;
-    grid-auto-rows: auto;   
-        
-     gap: 2rem; 
-     display: flex;  
-       flex-direction: column;
+    .baner{     
+        flex-direction: column;
+    } 
+    
+    .baner2{
+    border: 0px solid white;    
+    height: 16rem;
+    width: 95%;    
+
+    }   
+    
+}
+     
        
     
 }
 
-.baner2{
-    border: 0px solid white;    
-    height: 16rem;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-    
-}
 
 
 
