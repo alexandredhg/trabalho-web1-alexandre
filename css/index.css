@@ -110,20 +110,35 @@ h3{
 @media (max-width: 800px) {
     h1{
         font-size: 3rem;
+        text-align: center;
     }
 
     h2{
         font-size: 3rem;
+        text-align: center;
     }
 
     h3{
         font-size: 3rem;
+        text-align: center;
     }
 
     .menuLi{
-        font-size: 10rem;
+        font-size: 4rem;
+        text-align: center;
 
     }
+
+    .baner{     
+        flex-direction: column;
+    } 
+    
+    .baner2{
+    border: 0px solid white;    
+    height: 16rem;
+    width: 95%;    
+
+    }  
     
 }
 
@@ -152,7 +167,7 @@ h3{
     }
 
     .menuLi{
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: center;
     }
 
