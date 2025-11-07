@@ -55,7 +55,7 @@ h3{
     grid-template-columns: 1fr;    
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 70%;
     gap: 4rem;
     /*display: flex;
     justify-content: space-between;
@@ -95,7 +95,7 @@ h3{
                   
 }
 
-@media screen and (min-width: 1024px){
+/*@media screen and (min-width: 1024px){
     h1{
         font-size: 3rem;
     }
@@ -113,51 +113,9 @@ h3{
         
     }
 
-}
+}*/
 
-@media screen and (max-width: 800px){
-    h1{
-        font-size: 3rem;
-    }
-
-    h2{
-        font-size: 3rem;
-    }
-
-    h3{
-        font-size: 2.5rem;
-    }
-
-    .menuLi{
-        font-size: 1.5rem;
-        
-    }
-
-    .baner{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-    gap: 1.5rem;
-    /*display: flex;
-    justify-content: space-between;
-    align-items: center;*/      
-      
-    }
-
-    .baner2{
-        border: 0px solid white;    
-        height: 17rem;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-        
-
-    }
-
-}
+/*
 
 
 
