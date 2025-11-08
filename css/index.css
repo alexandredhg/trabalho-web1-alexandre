@@ -108,18 +108,25 @@ h3{
 
 
 @media (max-width: 800px) {
+    body{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
     h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
     h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
     h3{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
@@ -135,8 +142,8 @@ h3{
     
     .baner2{
     border: 0px solid white;    
-    height: 16rem;
-    width: 95%;    
+    height: 18rem;
+    width: 90%;    
 
     }  
     
@@ -145,24 +152,24 @@ h3{
 
 @media (max-width: 500px) {
     body{
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 20px;
     margin-bottom: 20px;
     }
 
     h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
     h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: ;
     }
 
     h3{
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
@@ -177,8 +184,8 @@ h3{
     
     .baner2{
     border: 0px solid white;    
-    height: 16rem;
-    width: 95%;    
+    height: 18rem;
+    width: 90%;    
 
     }   
     
@@ -186,7 +193,7 @@ h3{
      
        
     
-}
+
 
 
 
