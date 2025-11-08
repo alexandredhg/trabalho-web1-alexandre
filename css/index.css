@@ -74,7 +74,7 @@ h3{
 
 .baner2{
     border: 3px solid white;    
-    height: 18rem;
+    height: 16.5rem;
     width: 30rem;
     margin: 0.7rem;
     margin-top: 2rem;
@@ -109,8 +109,8 @@ h3{
 
 @media (max-width: 800px) {
     body{
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 20px;
     margin-bottom: 20px;
     }
@@ -142,7 +142,7 @@ h3{
     
     .baner2{
     border: 0px solid white;    
-    height: 18rem;
+    height: 22rem;
     width: 90%;    
 
     }  
@@ -152,8 +152,8 @@ h3{
 
 @media (max-width: 500px) {
     body{
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 20px;
     margin-bottom: 20px;
     }
@@ -184,7 +184,7 @@ h3{
     
     .baner2{
     border: 0px solid white;    
-    height: 18rem;
+    height: 22rem;
     width: 90%;    
 
     }   
