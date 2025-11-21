@@ -132,18 +132,23 @@ h2{
     }
 
     th, td{
-    border: 3px  solid  black;
-    font-size: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;      
+        border: 3px  solid  black;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;      
         
-}
+    }
 
-table{
-     width: 90%;
-    margin: auto;
-}
+    table{
+        width: 90%;
+        margin: auto;
+    }
 
+    .cor2{
+        font-size: 3.5rem;
+        background-color: blue;
+        color: white;
+    }
 
 }
 
@@ -219,7 +224,11 @@ table{
         margin: auto;
     }
 
-    
+    .cor2{
+        font-size: 3.5rem;
+        background-color: blue;
+        color: white;
+    }    
 
 
 }
