@@ -7,8 +7,13 @@ th, td{
 }
 
 table{
-     width: 75%;
+     width: 55%;
     margin: auto;
+}
+
+.img{
+    width: 200px;
+    height: 250px;
 }
 
 *{
@@ -129,14 +134,14 @@ h2{
 
     th, td{
     border: 3px  solid  black;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;      
         
 }
 
 table{
-     width: 60%;
+     width: 90%;
     margin: auto;
 }
 
