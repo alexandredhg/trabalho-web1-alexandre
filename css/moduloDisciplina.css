@@ -5,15 +5,16 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;   
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 th, td{
     border: 3px  solid  black;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;  
 }
@@ -26,9 +27,8 @@ table{
 h1{
     background-color: blueviolet;    
     color: white;
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    height: 3vw;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,11 +41,11 @@ h1{
 .cor2{
     background-color: blue;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.voltar{
+.sair{
     font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -53,9 +53,174 @@ h1{
 }
 
 .fontTh{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .cor2{
+        background-color: blue;
+        color: white;
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    th, td{
+        border: 3px  solid  black;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;  
+    }
+
+    table{
+        width: 90%;
+        margin: auto;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    /*.menuLi{
+        font-size: 3.5rem;
+        text-align: center;                
+    }&/
+
+    /*.menuUl{
+        font-size: 3.5rem;
+        text-align: center;                 
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .cor2{
+        background-color: blue;
+        color: white;
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    th, td{
+        border: 3px  solid  black;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;  
+    }
+
+    table{
+        width: 90%;
+        margin: auto;
+    }
+
 }
 
 
