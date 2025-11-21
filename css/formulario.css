@@ -59,10 +59,9 @@ h2{
     cursor: pointer;    
 }
 
-.voltar{
+.sair{
     font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 

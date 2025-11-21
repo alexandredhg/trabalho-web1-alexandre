@@ -47,8 +47,7 @@ h1{
 
 .sair{
     font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;    
 }
 
@@ -130,7 +129,7 @@ h1{
 
     th, td{
         border: 3px  solid  black;
-        font-size: 3rem;
+        font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
@@ -211,7 +210,7 @@ h1{
 
     th, td{
         border: 3px  solid  black;
-        font-size: 3rem;
+        font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
