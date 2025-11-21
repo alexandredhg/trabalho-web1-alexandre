@@ -5,17 +5,17 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;  
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 h1{
     background-color: blue;
     color: white;
-    font-size: 2vw;
-    height: 3vw;  
+    font-size: 2.3rem;      
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -26,8 +26,7 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;    
-    height: 3vw;  
+    font-size: 2rem;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -35,10 +34,21 @@ h2{
 
 }
 
+h3{       
+    background-color: coral;
+    color:  white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;           
+}
 
 
-.voltar{
-    font-size: 2vw;
+
+.sair{
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold; 
     text-align: center;   
@@ -55,6 +65,81 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media (max-width: 800px) {
+    body{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .video{
+        width: 80%;
+        height: 700px;
+    }
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .video{
+        width: 80%;
+        height: 700px;
+    }
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+
+
 }
 
 

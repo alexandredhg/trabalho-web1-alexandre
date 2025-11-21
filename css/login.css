@@ -5,17 +5,17 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 h1{
-    background-color: blue;    ;
+    background-color: blue;    
     color: white;
-    font-size: 2vw;
-    height: 3vw;
+    font-size: 2.3rem;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -25,72 +25,232 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;
-    height: 3vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     display: flex;
     align-items: center;
     justify-content: center; 
-    
-    
 }
 
-.btnEntrar{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.btnEntrar{  
     background-color: blue;
     color: white;
-    height: 3vw;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
     width: 10vw;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
-.btnMostrar{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: gray;
-    color: white;
-    height: 3vw;
-    width: 10vw;
-    border: none;
-    cursor: pointer;
-    
-}
-
-.voltar{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-align: center;
+.btnMostrar{    
+        background-color: gray;
+        color: white;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 60px;
+        width: 10vw;
+        border: none;
+        cursor: pointer;    
 }
 
 input{
     background-color: aqua;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
 }
 
 label{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-}
-
-.msg{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
 
 .centralForm{
     text-align: center;
 }
 
+.msg{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 
+.sair{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnMostrar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 90px;
+        margin-top: 40px;
+    }
+    
+    .btnEntrar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 90px;
+        margin-top: 20px;
+    } 
+
+    .msg{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnMostrar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 90px;
+        margin-top: 40px;
+    }
+    
+    .btnEntrar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 90px;
+        margin-top: 20px;
+    }
+    
+    .msg{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+}
 
 
 
