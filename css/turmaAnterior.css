@@ -7,7 +7,7 @@ th, td{
 }
 
 table{
-     width: 55%;
+     width: 35%;
     margin: auto;
 }
 
@@ -134,7 +134,7 @@ h2{
 
     th, td{
     border: 3px  solid  black;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;      
         
@@ -216,7 +216,7 @@ table{
 }
 
 table{
-     width: 60%;
+     width: 90%;
     margin: auto;
 }
 
