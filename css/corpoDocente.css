@@ -1,15 +1,4 @@
-th, td{
-    border: 3px  solid  black;
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;      
-        
-}
 
-table{
-     width: 95%;
-    margin: auto;
-}
 
 *{
     padding: 0;
@@ -18,21 +7,45 @@ table{
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;  
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
+}
+
+th, td{
+    border: 3px  solid  black;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;      
+        
+}
+
+table{
+     width: 85%;
+    margin: auto;
 }
 
 h1{
     background-color: blueviolet;
     color: white;
-    font-size: 2vw;
-    height: 3vw;  
+    font-size: 2.3rem;     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; 
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 2rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cor1{
@@ -40,7 +53,7 @@ h1{
 }
 
 .cor2{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blue;
     color: white;
@@ -51,17 +64,184 @@ h1{
 }
 
 .fontTh{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-weight: bold;
 }
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     text-align: center;
        
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    th, td{
+        border: 3px  solid  black;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;      
+            
+    }
+
+    table{
+        width: 85%;
+        margin: auto;
+    }   
+    
+    .fontTh{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }*/
+
+    /*.menuLi{
+        font-size: 3.5rem;
+        text-align: center;                
+    }&/
+
+    /*.menuUl{
+        font-size: 3.5rem;
+        text-align: center;                 
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    th, td{
+        border: 3px  solid  black;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;      
+            
+    }
+
+    table{
+        width: 85%;
+        margin: auto;
+    }   
+    
+    .fontTh{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+
 }
 
 
