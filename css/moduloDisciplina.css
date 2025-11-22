@@ -35,6 +35,17 @@ h1{
     justify-content: center;
 }
 
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 2rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .cor1{
@@ -54,11 +65,11 @@ h1{
     text-align: center;    
 }
 
-.fontTh{
+/*.fontTh{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-}
+}*/
 
 
 
@@ -82,7 +93,7 @@ h1{
         text-align: center;
     }
 
-    h3{
+    /*h3{
         font-size: 3.5rem;
         text-align: center;
     }
@@ -107,7 +118,7 @@ h1{
         font-size: 3.5rem;
         text-align: center; 
                 
-    }
+    }*/
     
     /*p{
         font-size: 2.5rem;
@@ -126,20 +137,20 @@ h1{
     .cor2{
         background-color: blue;
         color: white;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 90%;
+        width: 95%;
     }
 
     th, td{
         border: 3px  solid  black;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
 
     table{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
 
@@ -165,7 +176,7 @@ h1{
         text-align: center;
     }
 
-    h3{
+    /*h3{
         font-size: 3.5rem;
         text-align: center;
     }
@@ -178,7 +189,7 @@ h1{
     h5{
         font-size: 3.5rem;        
         text-align: center;
-    }
+    }*/
 
     /*.menuLi{
         font-size: 3.5rem;
@@ -208,20 +219,20 @@ h1{
     .cor2{
         background-color: blue;
         color: white;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 90%;
+        width: 95%;
     }
 
     th, td{
         border: 3px  solid  black;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
 
     table{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
 
