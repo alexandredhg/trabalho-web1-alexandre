@@ -128,6 +128,7 @@ h1{
         color: white;
         font-size: 3.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 90%;
     }
 
     th, td{
@@ -138,7 +139,7 @@ h1{
     }
 
     table{
-        width: 50%;
+        width: 90%;
         margin: auto;
     }
 
@@ -209,6 +210,7 @@ h1{
         color: white;
         font-size: 3.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 90%;
     }
 
     th, td{
@@ -219,7 +221,7 @@ h1{
     }
 
     table{
-        width: 50%;
+        width: 90%;
         margin: auto;
     }
 
