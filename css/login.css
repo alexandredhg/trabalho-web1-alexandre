@@ -135,8 +135,10 @@ label{
     }
 
     input{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         text-align: center;
+        width: 75%;
+        height: 6.5rem;
     }
 
     label{
@@ -219,8 +221,10 @@ label{
     }
 
     input{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         text-align: center;
+        width: 75%;
+        height: 6.5rem;
     }
 
     label{
