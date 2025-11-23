@@ -144,13 +144,13 @@ h2{
 
     th, td{
         border: 3px  solid  black;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
 
     table{
-        width: 93%;
+        width: 95%;
         margin: auto;
     }
 
@@ -226,13 +226,13 @@ h2{
 
     th, td{
         border: 3px  solid  black;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;  
     }
 
     table{
-        width: 93%;
+        width: 95%;
         margin: auto;
     }
 
