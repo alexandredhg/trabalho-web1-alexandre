@@ -5,18 +5,16 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
-    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;   
 }
 
 h1{
     background-color: blue;
     color: white;
-    font-size: 2vw;
-    height: 3vw;  
+    font-size: 2rem;     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -26,8 +24,7 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;
-    height: 3vw;
+    font-size: 2rem;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -38,36 +35,36 @@ h2{
 
 
 .btnEnviar{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blue;
     color: white;
-    height: 3vw;
-    width: 10vw;
+    height: 4rem;
+    width: 10rem;
     border: none;
     cursor: pointer;    
 }
 
 .btnLimpar{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: gray;
     color: white;
-    height: 3vw;
-    width: 10vw;
+    height: 4rem;
+    width: 10rem;
     border: none;
     cursor: pointer;    
 }
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 
 .input{
     background-color: aqua;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
@@ -75,24 +72,205 @@ h2{
 
 .input2{
     background-color: gray;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
 label{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     }
 
 .msg{
-    font-size: 2vw;
+    font-size: 2tr
+    ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .centralForm{
     text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .input2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnEnviar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 6.5rem;
+        margin-top: 3rem;
+    }
+    
+    .btnLimpar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 6.5rem;
+        margin-top: 1.5rem;
+    } 
+
+    .msg{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .input2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnEnviar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 6.5rem;
+        margin-top: 3rem;
+    }
+    
+    .btnLimpar{
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        height: 6.5rem;
+        margin-top: 1.5rem;
+    } 
+    
+    .msg{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
 }
 

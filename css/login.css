@@ -37,8 +37,8 @@ h2{
     color: white;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 60px;
-    width: 10vw;
+    height: 4rem;
+    width: 10rem;
     border: none;
     cursor: pointer;    
 }
@@ -48,8 +48,8 @@ h2{
         color: white;
         font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 60px;
-        width: 10vw;
+        height: 4rem;
+        width: 10rem;
         border: none;
         cursor: pointer;    
 }
