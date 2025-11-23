@@ -15,7 +15,7 @@ body{
 h1{
     background-color: blue;    
     color: white;
-    font-size: 2.3rem;    
+    font-size: 2rem;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ label{
         text-align: center;
     }
 
-    h3{
+    /*h3{
         font-size: 3.5rem;
         text-align: center;
     }
@@ -118,7 +118,7 @@ label{
     h5{
         font-size: 3.5rem;        
         text-align: center;
-    }
+    }*/
     
     /*p{
         font-size: 2.5rem;
@@ -148,16 +148,16 @@ label{
         font-size: 3rem;
         text-align: center;
         width: 50%;
-        height: 90px;
-        margin-top: 40px;
+        height: 6.5rem;
+        margin-top: 3rem;
     }
     
     .btnEntrar{
         font-size: 3rem;
         text-align: center;
         width: 50%;
-        height: 90px;
-        margin-top: 20px;
+        height: 6.5rem;
+        margin-top: 1.5rem;
     } 
 
     .msg{
@@ -188,7 +188,7 @@ label{
         text-align: center;
     }
 
-    h3{
+    /*h3{
         font-size: 3.5rem;
         text-align: center;
     }
@@ -201,7 +201,7 @@ label{
     h5{
         font-size: 3.5rem;        
         text-align: center;
-    }
+    }*/
     
     /*p{
         font-size: 2.5rem;
@@ -232,8 +232,8 @@ label{
         font-size: 3rem;
         text-align: center;
         width: 50%;
-        height: 90px;
-        margin-top: 40px;
+        height: 6.5rem;
+        margin-top: 3rem;
     }
     
     .btnEntrar{
@@ -241,7 +241,7 @@ label{
         text-align: center;
         width: 50%;
         height: 90px;
-        margin-top: 20px;
+        margin-top: 1.5rem;
     }
     
     .msg{

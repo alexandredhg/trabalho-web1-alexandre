@@ -14,8 +14,7 @@ body{
 h1{
     background-color: blue;
     color: white;
-    font-size: 2vw;
-    height: 3vw;  
+    font-size: 2rem;     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -25,8 +24,7 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;    
-    height: 3vw;
+    font-size: 2rem;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -35,13 +33,13 @@ h2{
 }
 
 .listaMenu{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 2vw;
 }
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center; 
     
@@ -50,7 +48,7 @@ h2{
 td,th{
     border: 3px solid  black;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -58,6 +56,165 @@ td,th{
 table{
     width: 90%;
     margin: auto;    
+}
+
+
+
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
+}
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    th, td{
+        border: 3px  solid  black;
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;  
+    }
+
+    table{
+        width: 93%;
+        margin: auto;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /*h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }*/
+
+    /*.menuLi{
+        font-size: 3.5rem;
+        text-align: center;                
+    }&/
+
+    /*.menuUl{
+        font-size: 3.5rem;
+        text-align: center;                 
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+th, td{
+        border: 3px  solid  black;
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;  
+    }
+
+    table{
+        width: 93%;
+        margin: auto;
+    }
+
 }
 
 
